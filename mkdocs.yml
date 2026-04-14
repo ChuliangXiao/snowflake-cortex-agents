@@ -1,0 +1,117 @@
+site_name: Snowflake Cortex Agents
+site_description: Python SDK for Snowflake Cortex Agents and Cortex Analyst APIs
+site_author: Chuliang Xiao
+copyright: Copyright 2025, Chuliang Xiao
+repo_url: https://github.com/ChuliangXiao/snowflake-cortex-agents
+repo_name: snowflake-cortex-agents
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - navigation.sections
+    - navigation.expand
+  custom_dir: docs
+  css_files:
+    - extra.css
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [cortex_agents]
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+            show_root_full_path: true
+            heading_level: 2
+            merge_init_into_class: true
+            filters: ["!^_"]
+            docstring_section_style: table
+            members_order: source
+            separate_signature: true
+            show_signature_annotations: true
+            inherited_members: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_style: material
+      linenums: false
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: installation.md
+      - Quick Start: quickstart.md
+      - Quick Reference: quick_reference.md
+  - Guides:
+      - Cortex Agents: guides/agents.md
+      - Thread Management: guides/threads_api.md
+      - Agent with Threads: guides/agents_threads.md
+      - Cortex Analyst: guides/analyst.md
+      - Chart Plotting: guides/chart_plotting.md
+  - API Reference:
+      - Overview: api/overview.md
+      - Agent: api/agent.md
+      - Analyst: api/analyst.md
+      - Async Agent: api/async_agent.md
+      - Async Analyst: api/async_analyst.md
+      - Response: api/response.md
+      - Core Modules:
+          - Entity: api/core_entity.md
+          - Run: api/core_run.md
+          - Threads: api/core_threads.md
+          - Feedback: api/core_feedback.md
+      - Utilities:
+          - Base: api/base.md
+          - Chart Utils: api/chart_utils.md
+          - Utils: api/utils.md
+  - Contributing:
+      - Contributing: contributing.md
+  - Links:
+      - Changelog: changelog.md
+      - License: license.md

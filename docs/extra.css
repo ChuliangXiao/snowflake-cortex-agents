@@ -1,0 +1,29 @@
+/* Enhanced syntax highlighting for docstring code blocks */
+
+/* Ensure all pre/code blocks in docstrings get proper styling */
+.doc-contents pre,
+.doc-contents code,
+.docstring pre,
+.docstring code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Style for code blocks in docstrings */
+.doc-contents pre code,
+.docstring pre code {
+    display: block;
+    background-color: var(--md-code-bg-color);
+    color: var(--md-code-fg-color);
+    border-radius: 0.1rem;
+    padding: 0.77em 1.17em;
+    overflow: auto;
+}
+
+/* Ensure inline code gets styled */
+.doc-contents code:not(pre code),
+.docstring code:not(pre code) {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-code-fg-color);
+    padding: 0.2em 0.4em;
+    border-radius: 0.1rem;
+}
