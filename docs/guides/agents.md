@@ -372,4 +372,4 @@ all_events = response.events
 
 ## More Examples
 
-Check out the [examples/](https://github.com/ChuliangXiao/snowflake-cortex-agents/tree/main/examples) directory in the repository for complete, runnable examples.
+Check out the [examples/](https://github.com/chx5/snowflake-cortex-agents/tree/main/examples) directory in the repository for complete, runnable examples.

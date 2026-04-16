@@ -4,7 +4,7 @@ Welcome to the **Snowflake Cortex Agents** SDK documentation! This SDK provides 
 
 ## Quick Links
 
-- **GitHub Repository**: [Snowflake Cortex Agents](https://github.com/ChuliangXiao/snowflake-cortex-agents)
+- **GitHub Repository**: [Snowflake Cortex Agents](https://github.com/chx5/snowflake-cortex-agents)
 - **Snowflake Cortex Agents**: [Cortex Agents Docs](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents)
 - **PyPI Package**: [snowflake-cortex-agents](https://pypi.org/project/snowflake-cortex-agents/)
 

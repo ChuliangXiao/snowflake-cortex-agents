@@ -21,37 +21,37 @@ Important usage rules:
 
 ## Start Here
 
-- [README](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/README.md): installation, credentials, quick start, and documentation index.
-- [Quickstart](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/quickstart.md): sync and async getting-started flows.
-- [Usage Guide](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/USAGE.md): broader usage notes, response metadata, tool selection, and additional examples.
-- [Quick Reference](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/quick_reference.md): task-to-guide routing for common user goals.
+- [README](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/README.md): installation, credentials, quick start, and documentation index.
+- [Quickstart](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/quickstart.md): sync and async getting-started flows.
+- [Usage Guide](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/USAGE.md): broader usage notes, response metadata, tool selection, and additional examples.
+- [Quick Reference](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/quick_reference.md): task-to-guide routing for common user goals.
 
 ## Core API References
 
-- [Public exports](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/cortex_agents/__init__.py): canonical import surface and package-level examples.
-- [CortexAgent](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/cortex_agents/agent.py): sync agent lifecycle, runs, threads, and feedback.
-- [CortexAnalyst](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/cortex_agents/analyst.py): sync Analyst message API and semantic model selection.
-- [AsyncCortexAgent](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/cortex_agents/async_agent.py): async agent workflows.
-- [AsyncCortexAnalyst](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/cortex_agents/async_analyst.py): async Analyst workflows.
-- [AgentResponse and EventType](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/cortex_agents/core/response.py): streaming event model and response helper properties.
+- [Public exports](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/cortex_agents/__init__.py): canonical import surface and package-level examples.
+- [CortexAgent](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/cortex_agents/agent.py): sync agent lifecycle, runs, threads, and feedback.
+- [CortexAnalyst](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/cortex_agents/analyst.py): sync Analyst message API and semantic model selection.
+- [AsyncCortexAgent](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/cortex_agents/async_agent.py): async agent workflows.
+- [AsyncCortexAnalyst](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/cortex_agents/async_analyst.py): async Analyst workflows.
+- [AgentResponse and EventType](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/cortex_agents/core/response.py): streaming event model and response helper properties.
 
 ## Guides
 
-- [Agents Guide](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/guides/agents.md): creating agents, running agents, streaming, and feedback patterns.
-- [Analyst Guide](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/guides/analyst.md): natural-language-to-SQL workflows, multi-model selection, ambiguity handling, and feedback.
-- [Threads API Guide](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/guides/threads_api.md): thread lifecycle and stateful conversations.
-- [Agents with Threads Guide](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/guides/agents_threads.md): conversational application patterns.
-- [Chart Plotting Guide](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/guides/chart_plotting.md): rendering charts from response components.
+- [Agents Guide](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/guides/agents.md): creating agents, running agents, streaming, and feedback patterns.
+- [Analyst Guide](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/guides/analyst.md): natural-language-to-SQL workflows, multi-model selection, ambiguity handling, and feedback.
+- [Threads API Guide](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/guides/threads_api.md): thread lifecycle and stateful conversations.
+- [Agents with Threads Guide](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/guides/agents_threads.md): conversational application patterns.
+- [Chart Plotting Guide](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/guides/chart_plotting.md): rendering charts from response components.
 
 ## Examples
 
-- [Sync agent example](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/examples/example_agent.py): create, run, stream, thread, and feedback workflows.
-- [Analyst example](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/examples/example_analyst.py): SQL generation, streaming, multi-turn usage, and feedback.
-- [Async agent example](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/examples/example_agent_async.py): concurrent async runs and async thread flows.
-- [Streaming example](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/examples/example_streaming.py): direct iteration over streaming responses.
-- [Streamlit streaming example](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/examples/example_streamlit_streaming.py): UI-oriented streaming integration.
+- [Sync agent example](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/examples/example_agent.py): create, run, stream, thread, and feedback workflows.
+- [Analyst example](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/examples/example_analyst.py): SQL generation, streaming, multi-turn usage, and feedback.
+- [Async agent example](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/examples/example_agent_async.py): concurrent async runs and async thread flows.
+- [Streaming example](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/examples/example_streaming.py): direct iteration over streaming responses.
+- [Streamlit streaming example](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/examples/example_streamlit_streaming.py): UI-oriented streaming integration.
 
 ## Optional
 
-- [Installation docs](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/docs/installation.md): extras, credentials, and environment setup.
-- [Contributing](https://raw.githubusercontent.com/ChuliangXiao/snowflake-cortex-agents/main/CONTRIBUTING.md): repository development workflow, mostly useful for contributors rather than package consumers.
+- [Installation docs](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/docs/installation.md): extras, credentials, and environment setup.
+- [Contributing](https://raw.githubusercontent.com/chx5/snowflake-cortex-agents/main/CONTRIBUTING.md): repository development workflow, mostly useful for contributors rather than package consumers.

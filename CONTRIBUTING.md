@@ -45,7 +45,7 @@ Before starting, ensure you have the following installed:
 
 2. **Clone and set up development environment**:
    ```bash
-   git clone https://github.com/ChuliangXiao/snowflake-cortex-agents.git
+   git clone https://github.com/chx5/snowflake-cortex-agents.git
    cd snowflake-cortex-agents
 
    # Sync dependencies (installs all dev, test, and doc tools)

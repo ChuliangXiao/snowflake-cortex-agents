@@ -2,7 +2,7 @@ site_name: Snowflake Cortex Agents
 site_description: Python SDK for Snowflake Cortex Agents and Cortex Analyst APIs
 site_author: Chuliang Xiao
 copyright: Copyright 2025, Chuliang Xiao
-repo_url: https://github.com/ChuliangXiao/snowflake-cortex-agents
+repo_url: https://github.com/chx5/snowflake-cortex-agents
 repo_name: snowflake-cortex-agents
 edit_uri: edit/main/docs/
 

@@ -209,5 +209,5 @@ class ConversationalAgent:
 1. Check the relevant guide above
 2. Review [Examples](guides/agents.md)
 3. Search [API Reference](api/overview.md)
-4. Check the [GitHub repository](https://github.com/ChuliangXiao/snowflake-cortex-agents)
-5. Open an [issue](https://github.com/ChuliangXiao/snowflake-cortex-agents/issues)
+4. Check the [GitHub repository](https://github.com/chx5/snowflake-cortex-agents)
+5. Open an [issue](https://github.com/chx5/snowflake-cortex-agents/issues)

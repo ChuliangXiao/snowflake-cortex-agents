@@ -1,4 +1,4 @@
-name: Build and Deploy Documentation
+name: Docs
 
 on:
   push:
@@ -12,6 +12,7 @@ on:
     paths:
       - 'docs/**'
       - 'cortex_agents/**'
+  workflow_dispatch:
 
 jobs:
   docs:

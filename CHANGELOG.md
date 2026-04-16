@@ -40,5 +40,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - URL path-segment percent-encoding in `BaseAgent._get_url()` — prevents URL-injection via agent or schema names
 - Credentials loaded exclusively from environment variables or `.env` files; never hard-coded defaults
 
-[Unreleased]: https://github.com/ChuliangXiao/snowflake-cortex-agents/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/ChuliangXiao/snowflake-cortex-agents/releases/tag/v0.1.0
+[Unreleased]: https://github.com/chx5/snowflake-cortex-agents/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/chx5/snowflake-cortex-agents/releases/tag/v0.1.0

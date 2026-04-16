@@ -53,10 +53,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ChuliangXiao/snowflake-cortex-agents"
-Documentation = "https://github.com/ChuliangXiao/snowflake-cortex-agents/blob/main/README.md"
-Repository = "https://github.com/ChuliangXiao/snowflake-cortex-agents"
-Issues = "https://github.com/ChuliangXiao/snowflake-cortex-agents/issues"
+Homepage = "https://github.com/chx5/snowflake-cortex-agents"
+Documentation = "https://github.com/chx5/snowflake-cortex-agents/blob/main/README.md"
+Repository = "https://github.com/chx5/snowflake-cortex-agents"
+Issues = "https://github.com/chx5/snowflake-cortex-agents/issues"
 
 [tool.uv.build-backend]
 module-name = "cortex_agents"
